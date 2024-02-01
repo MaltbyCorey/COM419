@@ -1,0 +1,46 @@
+body {
+    background: lightcyan;
+    font-size: 15px;
+    font-family: Arial, "Times New Roman";
+    text-align: left;
+    height: 100px; 
+}
+
+a:link
+{
+    color: red;
+}
+
+a:visited
+{
+    text-decoration: underline;
+}
+
+a:hover
+{
+    background: purple;
+}
+
+a:active
+{
+    color: green;
+}
+
+#header_main {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 30;
+    background: red;
+}
+
+#header{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 25;
+    background: pink;
+}
+
+p, ul {
+    background: yellow;
+}
+

@@ -1,0 +1,13 @@
+body {
+    background: rgb(48, 42, 42);
+    font-size: 15px;
+    font-family: Arial, "Times New Roman";
+    text-align: left;
+    height: 100px; 
+    color: #ffffff;
+}
+
+td {
+    color: green;
+    background: yellow;
+}

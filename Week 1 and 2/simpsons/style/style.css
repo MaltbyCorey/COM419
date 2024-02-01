@@ -1,0 +1,19 @@
+body {
+    background: lightblue;
+    font-size: 15px;
+    font-family: Arial, "Times New Roman";
+    text-align: left;
+    height: 100px; 
+}
+
+.table_text {
+    font-style: italic;
+    font-weight: bold;
+    color: red;
+    
+}
+
+.image{
+    height: 100;
+    width: 50;
+}
