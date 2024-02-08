@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+header{
+    width: 100%;
+    height: 80vh;
+    background: url('/Week\ 3/Skyrim/images/banner.jpg');
+    background-position: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 25;
+}
+
+
+ul{
+    list-style: none;
+    padding: 0;
+    height: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 12;
+
+}
+
+ul li:hover{
+    background: lightblue;
+}
+
+.title{
+    text-align: center;
+    font-size: 12;
+}
+
+.flexmain{
+    display: flex;
+    justify-content: space-around;
+}
+
+.topleft, .topright{
+    width: 30vw;
+}
+
+.topleft img{
+    width: 100%;
+}
+
+.flexmain2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottomleft, .bottomright{
+    width: 30vw;
+}
+
+.bottomright img{
+    width: 100%;
+}
+
+.testimonials{
+    text-align: center;
+}
+
