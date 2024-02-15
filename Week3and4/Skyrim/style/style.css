@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+header{
+    width: 100%;
+    height: 80vh;
+    background: url('/Week3and4/Skyrim/images/banner.jpg');
+    background-position: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 25;
+}
+
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    width: 100%;
+
+    height: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 12;
+
+}
+
+ul li:hover{
+    background: lightblue;
+}
+
+.title{
+    text-align: center;
+    font-size: 12;
+}
+
+.flexmain, .flexmain2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.topleft, .topright{
+    width: 40%;
+}
+
+.topleft img{
+    width: 100%;
+}
+
+.bottomleft, .bottomright{
+    width: 40%;
+}
+
+.bottomright img{
+    width: 100%;
+}
+
+.testimonials{
+    width: 100%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px){
+    nav ul{
+        display: block;
+        height: 110px;
+        font-size: 20;
+    }
+
+    nav ul li{
+        border:1px solid white;
+    }
+
+    .flexmain{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .flexmain2{
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .topleft, .bottomright{
+        width: 80%;
+        flex: none;
+    }
+
+    .topright, .bottomleft{
+        width: 80%;
+        text-align: center;
+        flex: none;
+    }
+}
+
